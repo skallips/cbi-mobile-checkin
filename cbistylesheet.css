@@ -1,0 +1,220 @@
+#body {
+    -webkit-text-size-adjust: 100%;
+}
+
+#header {
+                background-color: #3c7480;
+                text-align: center;
+                padding-top: .5em;
+                padding-bottom: .5em;
+            }
+
+            #middle {
+                padding-left: 2em;
+                padding-right: 2em;
+                
+            }
+
+         
+
+            .headerText {
+                font-family: Segoe UI, Arial;
+                font-size: 3em;
+                color: white;
+            }
+            
+            .headerText2 {
+                font-family: Segoe UI, Arial;
+                font-size: 5em;
+                color: #3c7480;
+            }
+
+            .itemText   {
+                font-family: Segoe UI, Arial;
+                font-size: 3.5em;
+                color: #3c7480;
+                padding: 5px;
+            }
+
+            .regularText  {
+                display:inline;
+                font-family: Segoe UI, Arial;
+                font-size: 2.5em;
+                color: black;
+                padding: 5px;
+            }
+
+            .regularTextCondensed  {
+                display:inline;
+                font-family: Segoe UI, Arial;
+                font-size: 2.5em;
+                color: black;
+                padding: 2px;
+            }
+
+            .regularTextColor  {
+                display:inline;
+                font-family: Segoe UI, Arial;
+                font-size: 2.5em;
+                color: #3c7480;
+                padding: 5px;
+            }
+
+            .regularTextCondensedColor  {
+                display:inline;
+                font-family: Segoe UI, Arial;
+                font-size: 2.5em;
+                color: #3c7480;
+                padding: 2px;
+            }
+            
+
+            .regularTextColorSmall  {
+                font-family: Segoe UI, Arial;
+                font-size: 1.5em;
+                color: #3c7480;;
+                padding: 5px;
+            }
+
+            .popText  {
+                font-family: Segoe UI, Arial;
+                font-size: 3em;
+                color: #3c7480;
+            }
+
+            .textArea   {
+                width: 20em;
+	            height: 3em;
+	            border: 3px solid #cccccc;
+	            padding: 5px;
+                font-family: Segoe UI, Arial;
+                font-size:2.5em;
+                color: black;
+            }
+
+            .textAreaCenter   {
+                width: 20em;
+	            height: 3em;
+	            border: 3px solid #cccccc;
+	            padding: 5px;
+                font-family: Segoe UI, Arial;
+                font-size:2.5em;
+                color: black;
+                text-align:center;
+                vertical-align: middle;
+            }
+            
+
+            .divCenter   {
+                text-align: center;
+                vertical-align: middle;
+            }
+            
+
+            .checkBox   {
+                width: 10em;
+	            height: 3em;
+	            border: 3px solid #3c7480;
+	            padding: 5px;
+                font-family: Segoe UI, Arial;
+                font-size: 5em;
+                color: black;
+            }
+
+            .checkBoxSmall   {
+                width: 5em;
+	            height: 2em;
+	            border: 3px solid #3c7480;
+	            padding: 5px;
+                font-family: Segoe UI, Arial;
+                font-size: 1em;
+                color: black;
+            }
+
+            .button1    {
+                color:white; 
+                background-color:#3c7480; 
+                font-family: Segue UI, Arial; 
+                font-size: 3.5em; 
+                border:none; 
+                padding:20px;
+            }
+
+            .button1:active    {
+                color:white; 
+                background-color: black; 
+                font-family: Segue UI, Arial; 
+                font-size: 3.5em; 
+                border:none; 
+                padding:20px;
+            }
+
+            footer {
+                text-align: center;
+                padding: 10px;
+                background-color: #3c7480;
+                font-family: Segoe UI, Arial;
+                font-size:1.5em;
+                color: white;
+            }
+.custom-checkbox {
+  position: relative;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.custom-checkbox span {
+  display: block;
+  margin-left: 40px;
+  padding-left: 7px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.custom-checkbox span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: #fdfdfd;
+  border: 1px solid #e4e5e7;
+  @include vendorize(box-shadow, inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1));
+}
+
+.custom-checkbox span::after {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+  color: #0087b7;
+  line-height: 40px;
+  text-align: center;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + span::after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  background:#d44803;
+  color:#fff;
+}
+
+
+
+
+
+
+
